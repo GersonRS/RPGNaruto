@@ -1,0 +1,863 @@
+<uml>
+   <greenVersion="30500"/>
+   <type>
+      <name="=RPG Naruto V²/src<controle{TratarTeclas.java[TratarTeclas"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="0"/>
+      <y="0"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<controle{TratarMouseTelaInicial.java[TratarMouseTelaInicial"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="200"/>
+      <y="0"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<controle{TratarMousePainelBaixo.java[TratarMousePainelBaixo"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="400"/>
+      <y="0"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<controle{TratarMouseTelaOpcao.java[TratarMouseTelaOpcao"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="600"/>
+      <y="0"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo{Fachada.java[Fachada"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="0"/>
+      <y="200"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo{Logica.java[Logica"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="200"/>
+      <y="200"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo{Logica.java[Logica[Direcao"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="400"/>
+      <y="200"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo{HeroiMemento.java[HeroiMemento"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="600"/>
+      <y="200"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo{HeroiCareTaker.java[HeroiCareTaker"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="0"/>
+      <y="400"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.dao{FabricaDeDAOs.java[FabricaDeDAOs"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="200"/>
+      <y="400"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.dao{FabricaDeDAOsMySql.java[FabricaDeDAOsMySql"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="400"/>
+      <y="400"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.dao{Conexao.java[Conexao"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="600"/>
+      <y="400"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.dao{Mapa.java[Mapa"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="0"/>
+      <y="600"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.dao{JogoDAO.java[JogoDAO"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="200"/>
+      <y="600"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.dao{MonstroDAO.java[MonstroDAO"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="400"/>
+      <y="600"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.dao{ControleDAO.java[ControleDAO"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="600"/>
+      <y="600"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.dao{ControleDAOMySql.java[ControleDAOMySql"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="0"/>
+      <y="800"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.dao{MonstroDAOArquivo.java[MonstroDAOArquivo"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="200"/>
+      <y="800"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.dao{ItemDAO.java[ItemDAO"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="400"/>
+      <y="800"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.dao{FabricaDeDAOsArquivo.java[FabricaDeDAOsArquivo"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="600"/>
+      <y="800"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.dao{JogoDAOArquivo.java[JogoDAOArquivo"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.dao{MonstroDAOMySql.java[MonstroDAOMySql"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.dao{ItemDAOMySql.java[ItemDAOMySql"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.dao{HeroiDAOMySql.java[HeroiDAOMySql"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.dao{HeroiDAOArquivo.java[HeroiDAOArquivo"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.dao{HeroiDAO.java[HeroiDAO"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.dao{ItemDAOArquivo.java[ItemDAOArquivo"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.dao{JogoDAOMySql.java[JogoDAOMySql"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.dao{ControleDAOArquivo.java[ControleDAOArquivo"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.vo{Jogo.java[Jogo"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.vo{Shuriken.java[Shuriken"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.vo{Item.java[Item"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.vo{BolaDeFogo.java[BolaDeFogo"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.vo{Controle.java[Controle"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.vo{Kunai.java[Kunai"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.vo{MonstroHomem.java[MonstroHomem"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.vo{MonstroMulher.java[MonstroMulher"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.vo{MonstroChefe.java[MonstroChefe"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.vo{Monstro.java[Monstro"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<modelo.vo{Heroi.java[Heroi"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<view{Inventario.java[Inventario"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<view{Renderizacao.java[Renderizacao"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<view{Inicial.java[Inicial"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<view{PainelBaixo.java[PainelBaixo"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<view{Poder.java[Poder"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<view{PainelEsquerdo.java[PainelEsquerdo"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<view{Opcoes.java[Opcoes"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<view{Botao.java[Botao"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<view{PainelCima.java[PainelCima"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <type>
+      <name="=RPG Naruto V²/src<view{MundoShinobi.java[MundoShinobi"/>
+      <height="-1"/>
+      <width="-1"/>
+      <x="50"/>
+      <y="50"/>
+   </type>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=RPG Naruto V²/src<view{Opcoes.java[Opcoes"/>
+      <targetType="=RPG Naruto V²/src<controle{TratarMouseTelaOpcao.java[TratarMouseTelaOpcao"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{FabricaDeDAOsMySql.java[FabricaDeDAOsMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{FabricaDeDAOs.java[FabricaDeDAOs"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.vo{MonstroHomem.java[MonstroHomem"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Monstro.java[Monstro"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{MonstroDAOMySql.java[MonstroDAOMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{MonstroDAO.java[MonstroDAO"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.vo{Heroi.java[Heroi"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Heroi.java[Heroi"/>
+      <bendpoints>
+         <bendpoint>
+            <x="40"/>
+            <y="0"/>
+         </bendpoint>
+         <bendpoint>
+            <x="40"/>
+            <y="-40"/>
+         </bendpoint>
+         <bendpoint>
+            <x="0"/>
+            <y="-40"/>
+         </bendpoint>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{HeroiDAOMySql.java[HeroiDAOMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Heroi.java[Heroi"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=RPG Naruto V²/src<controle{TratarMouseTelaInicial.java[TratarMouseTelaInicial"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Jogo.java[Jogo"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{FabricaDeDAOsArquivo.java[FabricaDeDAOsArquivo"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{FabricaDeDAOs.java[FabricaDeDAOs"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=RPG Naruto V²/src<view{Inicial.java[Inicial"/>
+      <targetType="=RPG Naruto V²/src<controle{TratarMouseTelaInicial.java[TratarMouseTelaInicial"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.composition.CompositionPart"/>
+      <sourceType="=RPG Naruto V²/src<view{PainelEsquerdo.java[PainelEsquerdo"/>
+      <targetType="=RPG Naruto V²/src<view{PainelBaixo.java[PainelBaixo"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=RPG Naruto V²/src<view{MundoShinobi.java[MundoShinobi"/>
+      <targetType="=RPG Naruto V²/src<view{Renderizacao.java[Renderizacao"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.vo{Jogo.java[Jogo"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Monstro.java[Monstro"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.composition.CompositionPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.vo{Monstro.java[Monstro"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Shuriken.java[Shuriken"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.vo{Heroi.java[Heroi"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Shuriken.java[Shuriken"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{MonstroDAOMySql.java[MonstroDAOMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Monstro.java[Monstro"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.composition.CompositionPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.vo{Jogo.java[Jogo"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Monstro.java[Monstro"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.association.AssociationPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo{Logica.java[Logica"/>
+      <targetType="=RPG Naruto V²/src<view{PainelEsquerdo.java[PainelEsquerdo"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=RPG Naruto V²/src<view{Opcoes.java[Opcoes"/>
+      <targetType="=RPG Naruto V²/src<view{Botao.java[Botao"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{JogoDAOMySql.java[JogoDAOMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{MonstroDAOMySql.java[MonstroDAOMySql"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{HeroiDAOArquivo.java[HeroiDAOArquivo"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{HeroiDAO.java[HeroiDAO"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{JogoDAOMySql.java[JogoDAOMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Monstro.java[Monstro"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.composition.CompositionPart"/>
+      <sourceType="=RPG Naruto V²/src<view{PainelEsquerdo.java[PainelEsquerdo"/>
+      <targetType="=RPG Naruto V²/src<view{PainelCima.java[PainelCima"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{ControleDAOMySql.java[ControleDAOMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{ControleDAO.java[ControleDAO"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.vo{Heroi.java[Heroi"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{BolaDeFogo.java[BolaDeFogo"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=RPG Naruto V²/src<view{PainelBaixo.java[PainelBaixo"/>
+      <targetType="=RPG Naruto V²/src<view{Inventario.java[Inventario"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{FabricaDeDAOsMySql.java[FabricaDeDAOsMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{HeroiDAOMySql.java[HeroiDAOMySql"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{ControleDAOArquivo.java[ControleDAOArquivo"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{ControleDAO.java[ControleDAO"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo{Logica.java[Logica"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{Mapa.java[Mapa"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo{Logica.java[Logica"/>
+      <targetType="=RPG Naruto V²/src<modelo{HeroiMemento.java[HeroiMemento"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=RPG Naruto V²/src<controle{TratarMouseTelaInicial.java[TratarMouseTelaInicial"/>
+      <targetType="=RPG Naruto V²/src<view{Opcoes.java[Opcoes"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.composition.CompositionPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.vo{Heroi.java[Heroi"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Item.java[Item"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.composition.CompositionPart"/>
+      <sourceType="=RPG Naruto V²/src<view{Opcoes.java[Opcoes"/>
+      <targetType="=RPG Naruto V²/src<view{Botao.java[Botao"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=RPG Naruto V²/src<controle{TratarMouseTelaOpcao.java[TratarMouseTelaOpcao"/>
+      <targetType="=RPG Naruto V²/src<view{Inicial.java[Inicial"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.vo{Kunai.java[Kunai"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Item.java[Item"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=RPG Naruto V²/src<controle{TratarMouseTelaInicial.java[TratarMouseTelaInicial"/>
+      <targetType="=RPG Naruto V²/src<view{MundoShinobi.java[MundoShinobi"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.association.AssociationPart"/>
+      <sourceType="=RPG Naruto V²/src<controle{TratarMouseTelaInicial.java[TratarMouseTelaInicial"/>
+      <targetType="=RPG Naruto V²/src<view{Inicial.java[Inicial"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{ItemDAOMySql.java[ItemDAOMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{ItemDAO.java[ItemDAO"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.composition.CompositionPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.vo{Jogo.java[Jogo"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Heroi.java[Heroi"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{ControleDAOMySql.java[ControleDAOMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Controle.java[Controle"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{MonstroDAOArquivo.java[MonstroDAOArquivo"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{MonstroDAO.java[MonstroDAO"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{HeroiDAOMySql.java[HeroiDAOMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{ItemDAOMySql.java[ItemDAOMySql"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{JogoDAOMySql.java[JogoDAOMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Jogo.java[Jogo"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{JogoDAOMySql.java[JogoDAOMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{JogoDAO.java[JogoDAO"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=RPG Naruto V²/src<view{MundoShinobi.java[MundoShinobi"/>
+      <targetType="=RPG Naruto V²/src<view{PainelEsquerdo.java[PainelEsquerdo"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.association.AssociationPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo{HeroiMemento.java[HeroiMemento"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Heroi.java[Heroi"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo{HeroiCareTaker.java[HeroiCareTaker"/>
+      <targetType="=RPG Naruto V²/src<modelo{HeroiMemento.java[HeroiMemento"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=RPG Naruto V²/src<view{PainelEsquerdo.java[PainelEsquerdo"/>
+      <targetType="=RPG Naruto V²/src<controle{TratarMousePainelBaixo.java[TratarMousePainelBaixo"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{FabricaDeDAOsMySql.java[FabricaDeDAOsMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{ItemDAOMySql.java[ItemDAOMySql"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.composition.CompositionPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo{Logica.java[Logica"/>
+      <targetType="=RPG Naruto V²/src<modelo{HeroiCareTaker.java[HeroiCareTaker"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.association.AssociationPart"/>
+      <sourceType="=RPG Naruto V²/src<controle{TratarMouseTelaOpcao.java[TratarMouseTelaOpcao"/>
+      <targetType="=RPG Naruto V²/src<view{Opcoes.java[Opcoes"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=RPG Naruto V²/src<view{MundoShinobi.java[MundoShinobi"/>
+      <targetType="=RPG Naruto V²/src<modelo{Logica.java[Logica"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=RPG Naruto V²/src<view{PainelBaixo.java[PainelBaixo"/>
+      <targetType="=RPG Naruto V²/src<view{Poder.java[Poder"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{JogoDAOMySql.java[JogoDAOMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{HeroiDAOMySql.java[HeroiDAOMySql"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{HeroiDAOMySql.java[HeroiDAOMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{ControleDAOMySql.java[ControleDAOMySql"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{FabricaDeDAOsMySql.java[FabricaDeDAOsMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{ControleDAOMySql.java[ControleDAOMySql"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=RPG Naruto V²/src<view{MundoShinobi.java[MundoShinobi"/>
+      <targetType="=RPG Naruto V²/src<controle{TratarTeclas.java[TratarTeclas"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{FabricaDeDAOsMySql.java[FabricaDeDAOsMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{JogoDAOMySql.java[JogoDAOMySql"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.vo{MonstroChefe.java[MonstroChefe"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Monstro.java[Monstro"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{FabricaDeDAOsMySql.java[FabricaDeDAOsMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{MonstroDAOMySql.java[MonstroDAOMySql"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.vo{Jogo.java[Jogo"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Controle.java[Controle"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{ItemDAOArquivo.java[ItemDAOArquivo"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{ItemDAO.java[ItemDAO"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.vo{MonstroMulher.java[MonstroMulher"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Monstro.java[Monstro"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.association.AssociationPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo{Logica.java[Logica"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Jogo.java[Jogo"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.association.AssociationPart"/>
+      <sourceType="=RPG Naruto V²/src<controle{TratarMousePainelBaixo.java[TratarMousePainelBaixo"/>
+      <targetType="=RPG Naruto V²/src<view{PainelBaixo.java[PainelBaixo"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{ItemDAOMySql.java[ItemDAOMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Item.java[Item"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.vo{MonstroMulher.java[MonstroMulher"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Shuriken.java[Shuriken"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{JogoDAOArquivo.java[JogoDAOArquivo"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{JogoDAO.java[JogoDAO"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyLPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo{Logica.java[Logica"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Monstro.java[Monstro"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.association.AssociationPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo{Logica.java[Logica"/>
+      <targetType="=RPG Naruto V²/src<view{Renderizacao.java[Renderizacao"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.generalization.GeneralizationPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.dao{HeroiDAOMySql.java[HeroiDAOMySql"/>
+      <targetType="=RPG Naruto V²/src<modelo.dao{HeroiDAO.java[HeroiDAO"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+   <relationship>
+      <class="edu.buffalo.cse.green.relationship.dependency.DependencyIPart"/>
+      <sourceType="=RPG Naruto V²/src<modelo.vo{Monstro.java[Monstro"/>
+      <targetType="=RPG Naruto V²/src<modelo.vo{Kunai.java[Kunai"/>
+      <bendpoints>
+      </bendpoints>
+   </relationship>
+</uml>
+
